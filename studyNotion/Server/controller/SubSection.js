@@ -4,7 +4,6 @@ const Section = require("../modules/section");
 const { uploadImageToCloudinary } = require("../util/fileUploader");
 const { Course } = require('../modules/course')
 const mongoose = require("mongoose");
-const { IoMdReturnLeft } = require("react-icons/io");
 const { fileUploader } = require('../util/fileUploader')
 const clouadinary = require('cloudinary').v2
 
